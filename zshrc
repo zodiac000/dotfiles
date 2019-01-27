@@ -114,4 +114,7 @@ unset __conda_setup
 # <<< conda init <<<
 
 
-export PATH="/usr/local/cuda/bin:$PATH"
+export PATH="/usr/local/cuda/bin:$PATH:/home/wenbin/Downloads/apache-jena-3.10.0/bin"
+export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
